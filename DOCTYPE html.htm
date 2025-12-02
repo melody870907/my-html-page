@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>美業人速出圖技巧 | AI 繪圖攻略</title>
+    <style>
+        :root {
+            --primary-color: #d4a373; /* 美業常用的質感金棕色 */
+            --bg-color: #fefae0;      /* 柔和米色背景 */
+            --text-color: #333;
+            --box-bg: #ffffff;
+        }
+        body {
+            font-family: "Helvetica Neue", Helvetica, Arial, "Microsoft JhengHei", sans-serif;
+            line-height: 1.8;
+            color: var(--text-color);
+            background-color: var(--bg-color);
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        header {
+            text-align: center;
+            padding: 60px 20px;
+            background: linear-gradient(135deg, #faedcd 0%, #ccd5ae 100%);
+            border-radius: 0 0 20px 20px;
+            margin-bottom: 40px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+        }
+        h1 {
+            color: #2c3e50;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        .subtitle {
+            font-size: 1.2em;
+            color: #666;
+            font-weight: normal;
+        }
+        h2 {
+            color: #b08968;
+            border-left: 5px solid #b08968;
+            padding-left: 15px;
+            margin-top: 40px;
+        }
+        h3 {
+            color: #7f5539;
+            margin-top: 30px;
+        }
+        .section {
+            background: var(--box-bg);
+            padding: 30px;
+            border-radius: 15px;
+            margin-bottom: 30px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.03);
+        }
+        .highlight-box {
+            background-color: #e9edc9;
+            padding: 15px 20px;
+            border-radius: 8px;
+            border-left: 5px solid #ccd5ae;
+            margin: 20px 0;
+        }
+        .prompt-box {
+            background-color: #f1f1f1;
+            padding: 20px;
+            border-radius: 8px;
+            font-family: monospace;
+            color: #d62828;
+            border: 1px dashed #aaa;
+            margin: 10px 0;
+            position: relative;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        .tag {
+            display: inline-block;
+            background: #faedcd;
+            color: #8c6a46;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-size: 0.9em;
+            margin-right: 5px;
+        }
+        footer {
+            text-align: center;
+            padding: 40px;
+            color: #888;
+            font-size: 0.9em;
+        }
+        @media (max-width: 600px) {
+            h1 { font-size: 1.8em; }
+            .section { padding: 20px; }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>美業人速出圖技巧 🎨</h1>
+        <p class="subtitle">AI 繪圖完美攻略（繁體中文不變形）</p>
+    </header>
+
+    <div class="container">
+        
+        <div class="section">
+            <h2>💡 前言：告別文字亂碼時代！</h2>
+            <p>「為什麼我的 AI 圖好好看，但中文卻像外星文？」身為美業人，一張吸睛的圖片絕對是社群互動的關鍵！</p>
+            <p>這份教學將帶你了解 AI 繪圖的文字極限，並提供最實用、最有效率的解決方案，讓你的美圖文案 <strong>清晰不變形，發文不卡關！</strong></p>
+        </div>
+
+        <div class="section">
+            <h2>🎯 釐清觀念：AI 能做與不能做</h2>
+            <div class="highlight-box">
+                <strong>核心觀念：</strong>目前的 AI 繪圖工具，無法精準生成大量、複雜且排版正確的繁體中文字。
+            </div>
+            <ul>
+                <li>✅ <strong>AI 擅長：</strong> 構圖創意、光影美學、材質質感。</li>
+                <li>❌ <strong>AI 不擅長：</strong> 大量文字排版、指定特定字體、精準繁體中文。</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>🛠 策略一：AI 生成「完美底圖」+ 後製文字 (★★★★★ 推薦)</h2>
+            <p>這是目前專業小編最常用的方式。讓 AI 負責畫面美感，文字部分則交給人類的精準度。</p>
+            
+            <h3>步驟 1：使用 AI 生成「留白底圖」</h3>
+            <p>使用以下關鍵字 (Prompt) 來引導 AI 留出空間：</p>
+            <ul>
+                <li><span class="tag">Empty speech bubbles</span> (空白對話框)</li>
+                <li><span class="tag">Copy space</span> (留白空間)</li>
+                <li><span class="tag">Clean background</span> (乾淨背景)</li>
+            </ul>
+
+            <p><strong>實戰 Prompt 範例 (複製貼上)：</strong></p>
+            <div class="prompt-box">
+                "A beautiful, modern beauty salon promotional poster template with a clean, minimalist design. It features a woman with glowing skin, showcasing a skincare product. There are two large, rectangular blank white signs for text, and ample copy space at the bottom for details. Elegant illustration style, soft lighting, vibrant pastel colors. High resolution."
+            </div>
+
+            <h3>步驟 2：後製疊加文字</h3>
+            <p>推薦使用 Canva、CapCut (剪映) 或 PowerPoint，將下載的底圖壓上正確的中文資訊。</p>
+        </div>
+
+        <div class="section">
+            <h2>🎯 策略二：強迫 AI 生成「少量標題」 (碰運氣)</h2>
+            <p>適用於 Logo 或極短標題。請嘗試加入以下關鍵字：</p>
+            <ul>
+                <li><span class="tag">Clean legible text</span> (清晰易讀)</li>
+                <li><span class="tag">Bold Font</span> (粗體)</li>
+                <li><span class="tag">No spelling errors</span> (無拼寫錯誤)</li>
+            </ul>
+            
+            <p><strong>實戰 Prompt 範例：</strong></p>
+            <div class="prompt-box">
+                "A luxurious skincare product bottle with a prominent label. The label clearly displays the Traditional Chinese characters for "極致光澤" (Jízhì Guāngzé) in a clean, elegant, bold font. No spelling errors, highly legible typography."
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>🌟 總結</h2>
+            <p>美業的視覺行銷至關重要。最有效率的方式是：<strong>AI 負責美感底圖，你負責精準文字。</strong> 善用工具分工，輕鬆提升品牌形象！</p>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>Made with AI Power | 專為美業人設計的 AI 筆記</p>
+    </footer>
+
+</body>
+</html>
